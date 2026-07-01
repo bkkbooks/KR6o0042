@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6o0042/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 集諸法寶最上義論
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1638.xml
+    old_id: T32n1638
+hash: sha256:3ebabca6e5fe7485d4b4b39caf9c8194b8eaa2bd09ff3877f3043bc2fa721e2e

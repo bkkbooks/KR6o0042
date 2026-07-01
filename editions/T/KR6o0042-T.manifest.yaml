@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR6o0042/T/v1
+canonical_location: https://kanripo.org/bkk/KR6o0042/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 集諸法寶最上義論
+  identifiers:
+    krp: KR6o0042
+    cbeta: T32n1638
+    cbeta_old_id: T32n1638
+    authorityid: CA0001508
+    json_key: T1638
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1638.xml
+    old_id: T32n1638
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0042_000-T.yaml, hash: 'sha256:3ebabca6e5fe7485d4b4b39caf9c8194b8eaa2bd09ff3877f3043bc2fa721e2e'}
+  - {seq: 1, filename: KR6o0042_001-T.yaml, hash: 'sha256:9bdfeb34449c44e809cb929f2dae82dbc9df45cc852f601477163111e35e13dd'}
+  - {seq: 2, filename: KR6o0042_002-T.yaml, hash: 'sha256:a182a8003382fbbb465027bd9f16c25b2947a2b1a56c5759bf8412c52678a94d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6o0042_000-T.markers.yaml, hash: 'sha256:644d3f6a892dbe3df66abcec6447cfaa568031818dc68ab36ffe7e563f109acc'}
+  - {seq: 1, role: markers, filename: assets/KR6o0042_001-T.markers.yaml, hash: 'sha256:8655c3d5eaad6fb0dd80f0fb02cebd8a07c0b88824b34e35130020d3397ef137'}
+  - {seq: 2, role: markers, filename: assets/KR6o0042_002-T.markers.yaml, hash: 'sha256:f4667675b08ca0ccdb98ec64e9559b159264856cf1e3425db8093d55a4b6ce16'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0042_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3098
+  label: 集諸法寶最上義論卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6o0042_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 3714
+  label: 集諸法寶最上義論卷下
+  type: juan
+  level: 1
+hash: sha256:d71407398a82fc157e257cf982f1fdb2d431e2b6d164b91c4838516524d61260

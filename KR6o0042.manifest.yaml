@@ -1,0 +1,69 @@
+canonical_identifier: bkk:krp/KR6o0042/v1
+canonical_location: https://kanripo.org/bkk/KR6o0042/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 集諸法寶最上義論
+  identifiers:
+    alt_id:
+    - T32n1638
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1638.xml
+    old_id: T32n1638
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit2
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 宮
+  label: 宮
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0042_000.yaml, hash: 'sha256:3ebabca6e5fe7485d4b4b39caf9c8194b8eaa2bd09ff3877f3043bc2fa721e2e'}
+  - {seq: 1, filename: KR6o0042_001.yaml, hash: 'sha256:807b8b86c31bfcdd5ad8d8e9a7132f45495eee7872bb6b08c09235971d422efc'}
+  - {seq: 2, filename: KR6o0042_002.yaml, hash: 'sha256:d6f752159a93b2c1960affc2fcbd0794a56f1b4baeef32381e7c2e15dd18b65d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6o0042_001.markers.yaml, hash: 'sha256:c6fd69b976b892688b34ba79af87ccc050b463ec4eb7e68a43a29b0cd4d36a56'}
+  - {seq: 2, role: markers, filename: assets/KR6o0042_002.markers.yaml, hash: 'sha256:b5a4909427700f6d9498b54bab896e1c159e2a08969d6a3aaf2d5c8a963b1d16'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0042_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3098
+  label: 集諸法寶最上義論卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6o0042_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 3714
+  label: 集諸法寶最上義論卷下
+  type: juan
+  level: 1
+hash: sha256:e7b562de2e801db70a76b8427898415d9f28b99713e9af3198d80dddb5579da2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
